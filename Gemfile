@@ -21,6 +21,7 @@ gem 'puma', '~> 3.0'
 # gem 'rack-cors'
 gem 'omniauth'
 gem 'devise_token_auth'
+gem 'active_model_serializers'
 
 group :development, :test do
 

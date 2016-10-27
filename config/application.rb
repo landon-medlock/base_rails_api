@@ -28,7 +28,9 @@ module BaseRailsApi
          resource '*', :headers => :any, :methods => [:get, :post, :options]
        end
      end
-     
+
+     config.middleware.use Rack::Attack
+
     config.api_only = true
   end
 end

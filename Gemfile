@@ -35,6 +35,9 @@ group :development, :test do
 
   # Use Factory Girl for generating random test data
   gem 'factory_girl_rails'
+
+  # Use faker to generate fake names for seed data
+  gem 'faker'
 end
 
 group :development do
